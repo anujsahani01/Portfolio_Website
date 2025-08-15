@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Github, Linkedin, Mail, Twitter } from "lucide-react";
-import profileImage from "@/assets/anuj-profile.jpg";
+import profileImage from "@/assets/anuj-profile-new.jpg";
 
 const Hero = () => {
   const skills = [
