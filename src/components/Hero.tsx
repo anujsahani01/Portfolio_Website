@@ -5,7 +5,7 @@ import profileImage from "@/assets/anuj-profile-new.jpg";
 
 const Hero = () => {
   const skills = [
-    "LLMs", "RAG", "Agents", "NLP", "CV", "Optimization", 
+    "LLMs", "RAG", "Agents", "NLP", "Computer Vision", "Optimization", 
     "Azure/AWS", "Docker", "Power BI"
   ];
 
