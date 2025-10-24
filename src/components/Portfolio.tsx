@@ -16,14 +16,17 @@ const Portfolio = () => {
     icon: Bot,
     color: "text-purple-400",
     links: [{
-      type: "case-study",
-      label: "View case study"
+      type: "github",
+      label: "GitHub",
+      url: "https://github.com/anujsahani01/Agentic-Mesh"
     }, {
       type: "blog",
-      label: "Read blog"
+      label: "Read blog",
+      url: "https://towardsdev.com/agentic-mesh-e030d3576d86"
     }, {
       type: "demo",
-      label: "Watch demo"
+      label: "Watch demo",
+      url: "https://go.screenpal.com/watch/cTjbYGn2Y7q"
     }]
   }, {
     id: 2,
@@ -37,7 +40,8 @@ const Portfolio = () => {
     color: "text-blue-400",
     links: [{
       type: "video",
-      label: "Watch implementation video"
+      label: "Watch implementation video",
+      url: "https://jumpshare.com/s/zeoXzxzf9ndMgThfjYeK"
     }]
   }, {
     id: 3,
@@ -51,7 +55,8 @@ const Portfolio = () => {
     color: "text-green-400",
     links: [{
       type: "results",
-      label: "See results"
+      label: "See results",
+      url: "https://ieeexplore.ieee.org/abstract/document/10532945"
     }]
   }, {
     id: 4,
@@ -65,7 +70,8 @@ const Portfolio = () => {
     color: "text-red-400",
     links: [{
       type: "metrics",
-      label: "View metrics"
+      label: "View results",
+      url: "https://github.com/anujsahani01/HeartNet/blob/main/Journal_Heartnet.pdf"
     }]
   }, {
     id: 5,
@@ -79,7 +85,8 @@ const Portfolio = () => {
     color: "text-pink-400",
     links: [{
       type: "demo",
-      label: "Try live demo"
+      label: "Try live demo",
+      url: "https://github.com/anujsahani01/Yoga-Pose-Detector"
     }]
   }];
   const toggleCard = (id: number) => {
@@ -165,7 +172,13 @@ const Portfolio = () => {
 
                     {/* Links */}
                     <div className="flex flex-wrap gap-3 pt-2">
-                      {project.links.map(link => <Button key={link.type} variant="outline" size="sm" className="border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300">
+                      {project.links.map(link => <Button 
+                          key={link.type} 
+                          variant="outline" 
+                          size="sm" 
+                          className="border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                          onClick={() => window.open(link.url, '_blank')}
+                        >
                           {getLinkIcon(link.type)}
                           <span className="ml-2">{link.label}</span>
                         </Button>)}

@@ -215,11 +215,10 @@ const Contact = () => {
                         <SelectValue placeholder="Select budget range" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="under-5k">Under $5,000</SelectItem>
-                        <SelectItem value="5k-15k">$5,000 - $15,000</SelectItem>
-                        <SelectItem value="15k-50k">$15,000 - $50,000</SelectItem>
-                        <SelectItem value="50k-plus">$50,000+</SelectItem>
-                        <SelectItem value="discuss">Let's discuss</SelectItem>
+                        <SelectItem value="500-2k">$500 - $2,000</SelectItem>
+                        <SelectItem value="2k-5k">$2,000 - $5,000</SelectItem>
+                        <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
+                        <SelectItem value="10k-20k">$10,000 - $20,000</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
