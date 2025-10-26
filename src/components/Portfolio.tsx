@@ -41,7 +41,7 @@ const Portfolio = () => {
     links: [{
       type: "video",
       label: "Watch implementation video",
-      url: "https://jumpshare.com/s/zeoXzxzf9ndMgThfjYeK"
+      url: "https://drive.google.com/file/d/1GzJTbHy7uY0A7aYKOy3xf99gSgLoGCEk/view?usp=sharing"
     }]
   }, {
     id: 3,
