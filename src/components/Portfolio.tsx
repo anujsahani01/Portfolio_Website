@@ -41,7 +41,7 @@ const Portfolio = () => {
     links: [{
       type: "video",
       label: "Watch implementation video",
-      url: "https://drive.google.com/file/d/1GzJTbHy7uY0A7aYKOy3xf99gSgLoGCEk/view?usp=sharing"
+      url: "https://vimeo.com/1130637233?share=copy&fl=sv&fe=ci"
     }]
   }, {
     id: 3,
